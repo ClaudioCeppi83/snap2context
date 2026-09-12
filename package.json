@@ -1,0 +1,53 @@
+{
+  "name": "snap2context",
+  "version": "0.1.0",
+  "description": "Zero-latency visual context engine for AI coding agents. Capture screen, enrich local code, and feed your LLM in 1 second.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "snap2context": "./bin/index.js",
+    "agentic-screen": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioCeppi83/snap2context.git"
+  },
+  "author": "Claudio Ceppi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ClaudioCeppi83/snap2context/issues"
+  },
+  "homepage": "https://github.com/ClaudioCeppi83/snap2context#readme",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "commander": "^11.0.0",
+    "fuzzysort": "^2.0.4",
+    "ora": "^7.0.0",
+    "picocolors": "^1.0.0",
+    "tesseract.js": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "keywords": [
+    "snap2context",
+    "devtools",
+    "ai-agent",
+    "cli",
+    "context-engine",
+    "screen-to-code",
+    "ocr",
+    "typescript",
+    "copilot",
+    "llm-tools",
+    "gemini",
+    "antigravity"
+  ]
+}
